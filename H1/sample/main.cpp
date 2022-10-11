@@ -10,8 +10,9 @@ using namespace cv;
 using namespace std;
 
 int main(int argc, char **argv) {
+    //读取图片
     Mat src, dst;
-    src = imread("99043161_p0.jpg");
+    src = imread("res/img/99043161_p0.jpg");
     if (!src.data) {
         cout << "could not load image..." << endl;
         return -1;

@@ -1,4 +1,8 @@
-#忽略所有.idea目录
+#忽略所有IDE目录
 .idea/
-#忽略所有.iml文件
+.vs/
+
 *.iml
+/H1/sample/CMakeSettings.json
+/H1/sample/cmake-build-debug/
+/H2/sample/cmake-build-debug/
