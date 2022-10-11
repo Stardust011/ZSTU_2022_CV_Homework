@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
     Mat src, dst;
     src = imread("99043161_p0.jpg");
     if (!src.data) {
-        printf("could not load image...\n");
+        cout << "could not load image..." << endl;
         return -1;
     }
     namedWindow("original image", WINDOW_AUTOSIZE);
@@ -81,8 +81,8 @@ int main(int argc, char **argv) {
     //< 0 图像同时向下向右翻转
 
     imshow("affine transformation1（三点法）", dst_warp);
-    imshow("affine transfoemation2（指定比例和角度）", dst_warpRotateScale);
-    imshow("affine transfoemation3（仿射变换平移）", dst_warpTransformation);
+    imshow("affine transformation2（指定比例和角度）", dst_warpRotateScale);
+    imshow("affine transformation3（仿射变换平移）", dst_warpTransformation);
     imshow("affine transformation4(仿射变换镜像)", dst_warpFlip);
 
     waitKey(0);

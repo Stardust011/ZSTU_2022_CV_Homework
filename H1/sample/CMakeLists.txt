@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(opencv_learn)
+project(opencv_learn_H1)
 
 set(CMAKE_CXX_STANDARD 14)
 
